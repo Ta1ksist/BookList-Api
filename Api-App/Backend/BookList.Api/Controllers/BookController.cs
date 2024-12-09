@@ -17,21 +17,20 @@ namespace BookList.Api.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> Get()
+        public async Task<ActionResult<List<Book>>> Get()
         {
             var books = await _context.Books.ToListAsync();
             return Ok(books);
         }
 
         [HttpPost]
-        public async Task<IActionResult> Add([Bind("Id, Title, Description, Author, Year")] Book book)
+        public async Task<ActionResult<List<Book>>> Add(Book book)
         {
             await _context.Books.AddAsync(book);
             await _context.SaveChangesAsync();
             return Ok(book);
         }
 
-        // [Bind("Id, Title, Description, Author, Year")] 
         [HttpPut("{id:guid}")]
         public async Task<ActionResult<List<Book>>> Update(Guid id, Book book)
         {
@@ -45,32 +44,6 @@ namespace BookList.Api.Controllers
 
             await _context.SaveChangesAsync();
             return NoContent();
-            // if(id != book.Id)
-            // {
-            //     return NotFound();
-            // }
-            // if (!ModelState.IsValid)
-            // {  
-            //     return BadRequest(ModelState); 
-            // }
-            // try
-            // {
-            //     _context.Update(book);
-            //     await _context.SaveChangesAsync();
-            //     return NoContent();
-                
-            // }
-            // catch (DbUpdateConcurrencyException)
-            // {
-            //     if (!await BookExistsAsync(book.Id))
-            //     {
-            //         return NotFound();
-            //     }
-            //     else
-            //     {
-            //         throw;
-            //     }
-            // }
         }
 
         private async Task<bool> BookExistsAsync(Guid id)
@@ -79,7 +52,7 @@ namespace BookList.Api.Controllers
         }
 
         [HttpDelete("{id:guid}")]
-        public async Task<IActionResult> Delete(Guid id)
+        public async Task<ActionResult<List<Book>>> Delete(Guid id)
         {
             var book = await _context.Books.FindAsync(id);
             if(book != null)
