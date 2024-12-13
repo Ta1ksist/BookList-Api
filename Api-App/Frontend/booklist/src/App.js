@@ -1,5 +1,4 @@
-import { getBooks } from './api/api.js';
-import  BookList  from './api/BooksList.js';
+import  BookList  from './api/BookList';
 import './App.css';
 
 function App() {
