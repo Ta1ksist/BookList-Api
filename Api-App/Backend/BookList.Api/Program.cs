@@ -11,7 +11,7 @@ builder.Services.AddDbContext<BookContext>(options =>
     options.UseNpgsql("Host=localhost;Port=5432;Database=Book;Username=postgres;Password=postgres"));
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowSpecificOrigin",builder => 
+    options.AddPolicy("AllowReactApp",builder => 
         builder.WithOrigins("http://localhost:3000")
             .AllowAnyMethod()
             .AllowAnyHeader());
@@ -29,7 +29,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseRouting();
-app.UseCors("AllowSpecificOrigin");
+app.UseCors("AllowReactApp");
 app.MapControllers();
 
 app.Run();

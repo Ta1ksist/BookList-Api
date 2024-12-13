@@ -46,10 +46,10 @@ namespace BookList.Api.Controllers
             return NoContent();
         }
 
-        private async Task<bool> BookExistsAsync(Guid id)
-        {
-           return await _context.Books.AnyAsync(e => e.Id == id);
-        }
+        // private async Task<bool> BookExistsAsync(Guid id)
+        // {
+        //    return await _context.Books.AnyAsync(e => e.Id == id);
+        // }
 
         [HttpDelete("{id:guid}")]
         public async Task<ActionResult<List<Book>>> Delete(Guid id)
