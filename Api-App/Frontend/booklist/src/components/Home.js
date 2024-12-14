@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import { useLocation } from "react-router-dom";
 import { getBooks } from "/Users/izzatmelikov/Desktop/BookList-Api/Api-App/Frontend/booklist/src/api/api.js";
+import Button from 'react-bootstrap/Button';
+import '/Users/izzatmelikov/Desktop/BookList-Api/Api-App/Frontend/booklist/src/componentsStyles/Home.css';
 
 
 function Home() {
@@ -10,7 +11,7 @@ function Home() {
         },[]);
     return(
        <>
-        <h1 class="home-h1">BookList</h1>
+        <h1 class="main-h1">BookList</h1>
         <table>
             <thead>
                 <tr>
@@ -26,6 +27,7 @@ function Home() {
                     <th>
                         Year
                     </th>
+                    <th></th>
                 </tr>
             </thead>
             <tbody>
@@ -35,6 +37,12 @@ function Home() {
                         <td>{book.description}</td>
                         <td>{book.author}</td>
                         <td>{book.year}</td>
+                        <td>
+                            <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+                                <Button type="sumbit" class="btn btn-primary">Update</Button>
+                                <Button type="sumbit" class="btn btn-primary">Delete</Button>
+                            </div>
+                        </td>
                     </tr>
                 ))}
             </tbody>
