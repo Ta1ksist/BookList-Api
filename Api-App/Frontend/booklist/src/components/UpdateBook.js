@@ -2,7 +2,7 @@ import React from "react";
 import { useLocation } from "react-router-dom";
 
 
-function UpdateBook() {
+export default function UpdateBook() {
     const location = useLocation();
     return(
        <>
@@ -10,5 +10,3 @@ function UpdateBook() {
        </>
     );
 }
-
-export default UpdateBook;

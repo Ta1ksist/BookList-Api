@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { getBooks } from "./api";
 
 
-function BookList() {
+export default function BookList() {
     const [books, setBooks] = useState([]);
     useEffect(() => {
         getBooks().then(setBooks).catch(console.error);
@@ -17,5 +17,3 @@ function BookList() {
     </div>
     );
 }
-
-export default BookList;

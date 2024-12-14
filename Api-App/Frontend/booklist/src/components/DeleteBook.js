@@ -2,7 +2,7 @@ import React from "react";
 import { useLocation } from "react-router-dom";
 
 
-function DeleteBook() {
+export default function DeleteBook() {
     const location = useLocation();
     return(
        <>
@@ -10,5 +10,3 @@ function DeleteBook() {
        </>
     );
 }
-
-export default DeleteBook;

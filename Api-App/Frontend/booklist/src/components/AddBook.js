@@ -1,16 +1,13 @@
 import React, { useEffect, useState } from "react";
-import { useLocation } from "react-router-dom";
 import '/Users/izzatmelikov/Desktop/BookList-Api/Api-App/Frontend/booklist/src/componentsStyles/AddBook.css';
-import Button from 'react-bootstrap/Button';
 import { getBooks } from "/Users/izzatmelikov/Desktop/BookList-Api/Api-App/Frontend/booklist/src/api/api.js";
-import Form from 'react-bootstrap/Form';
 
-function AddBook() {
+
+export default function AddBook() {
     const [books, setBooks] = useState([]);
             useEffect(() => {
                 getBooks().then(setBooks).catch(console.error);
             },[]);
-    const location = useLocation();
     const [errors, setErrors] = useState({});
 
     const handleChange = (e) => {
@@ -90,12 +87,10 @@ function AddBook() {
                 {errors.year && <span className="text-danger">{errors.year}</span>}
             </div>
             <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
-                <Button type="sumbit" class="btn btn-primary">Add</Button>
-                <Button type="sumbit" class="btn btn-primary">Back</Button>
+                <button type="sumbit" class="btn btn-primary">Add</button>
+                <button type="sumbit" class="btn btn-primary">Back</button>
             </div>
         </form>
         </>
     );
 }
-
-export default AddBook;

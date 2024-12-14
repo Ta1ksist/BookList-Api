@@ -1,6 +1,6 @@
 const API_URL = "https://localhost:7113/api/Book";
 
-export async function getBooks() {
+export default async function getBooks() {
     const response = await fetch(API_URL);
     if(!response.ok)
     {

@@ -1,10 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { getBooks } from "/Users/izzatmelikov/Desktop/BookList-Api/Api-App/Frontend/booklist/src/api/api.js";
-import Button from 'react-bootstrap/Button';
 import '/Users/izzatmelikov/Desktop/BookList-Api/Api-App/Frontend/booklist/src/componentsStyles/Home.css';
 
 
-function Home() {
+export default function Home() {
     const [books, setBooks] = useState([]);
         useEffect(() => {
             getBooks().then(setBooks).catch(console.error);
@@ -39,8 +38,9 @@ function Home() {
                         <td>{book.year}</td>
                         <td>
                             <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
-                                <Button type="sumbit" class="btn btn-primary">Update</Button>
-                                <Button type="sumbit" class="btn btn-primary">Delete</Button>
+                                <button type='sumbit' class="btn btn-primary">Read</button>
+                                <button type="sumbit" class="btn btn-primary">Update</button>
+                                <button type="sumbit" class="btn btn-primary">Delete</button>
                             </div>
                         </td>
                     </tr>
@@ -50,5 +50,3 @@ function Home() {
        </>
     );
 }
-
-export default Home;
