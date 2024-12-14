@@ -1,9 +1,21 @@
-import  BookList  from './api/BookList';
 import './App.css';
+import NavBar from './components/NavBar';
+
 
 function App() {
   return (
-    <BookList />
+    <>
+      <body>
+        <div class="nav">
+          <NavBar />
+        </div>
+        <footer class="border-top footer text-muted">
+          <div class="container">
+            &copy; 2024 - Book - Melikov
+          </div>
+        </footer>
+      </body>
+    </>
   );
 }
 

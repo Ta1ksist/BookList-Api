@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { getBooks } from "./api";
 
+
 function BookList() {
     const [books, setBooks] = useState([]);
     useEffect(() => {
@@ -10,7 +11,7 @@ function BookList() {
         <div>
         <ul>
             {books.map(book => (
-                <><li key={book.id}>{book.title}</li><li>{book.description}</li><li>{book.author}</li><li>{book.year}</li></>
+                <>{book.title}<br></br>{book.description}<br></br>{book.author}<br></br>{book.year}</>
             ))}
         </ul>
     </div>
