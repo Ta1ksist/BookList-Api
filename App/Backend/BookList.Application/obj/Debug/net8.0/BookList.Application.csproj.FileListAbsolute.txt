@@ -1,0 +1,15 @@
+/Users/izzatmelikov/Desktop/WebAppBookList/App/Backend/BookList.Application/bin/Debug/net8.0/BookList.Application.deps.json
+/Users/izzatmelikov/Desktop/WebAppBookList/App/Backend/BookList.Application/bin/Debug/net8.0/BookList.Application.dll
+/Users/izzatmelikov/Desktop/WebAppBookList/App/Backend/BookList.Application/bin/Debug/net8.0/BookList.Application.pdb
+/Users/izzatmelikov/Desktop/WebAppBookList/App/Backend/BookList.Application/bin/Debug/net8.0/BookList.Core.dll
+/Users/izzatmelikov/Desktop/WebAppBookList/App/Backend/BookList.Application/bin/Debug/net8.0/BookList.Core.pdb
+/Users/izzatmelikov/Desktop/WebAppBookList/App/Backend/BookList.Application/obj/Debug/net8.0/BookList.Application.csproj.AssemblyReference.cache
+/Users/izzatmelikov/Desktop/WebAppBookList/App/Backend/BookList.Application/obj/Debug/net8.0/BookList.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/izzatmelikov/Desktop/WebAppBookList/App/Backend/BookList.Application/obj/Debug/net8.0/BookList.Application.AssemblyInfoInputs.cache
+/Users/izzatmelikov/Desktop/WebAppBookList/App/Backend/BookList.Application/obj/Debug/net8.0/BookList.Application.AssemblyInfo.cs
+/Users/izzatmelikov/Desktop/WebAppBookList/App/Backend/BookList.Application/obj/Debug/net8.0/BookList.Application.csproj.CoreCompileInputs.cache
+/Users/izzatmelikov/Desktop/WebAppBookList/App/Backend/BookList.Application/obj/Debug/net8.0/BookList.6461B620.Up2Date
+/Users/izzatmelikov/Desktop/WebAppBookList/App/Backend/BookList.Application/obj/Debug/net8.0/BookList.Application.dll
+/Users/izzatmelikov/Desktop/WebAppBookList/App/Backend/BookList.Application/obj/Debug/net8.0/refint/BookList.Application.dll
+/Users/izzatmelikov/Desktop/WebAppBookList/App/Backend/BookList.Application/obj/Debug/net8.0/BookList.Application.pdb
+/Users/izzatmelikov/Desktop/WebAppBookList/App/Backend/BookList.Application/obj/Debug/net8.0/ref/BookList.Application.dll

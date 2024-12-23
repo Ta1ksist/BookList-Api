@@ -1,0 +1,17 @@
+/Users/izzatmelikov/Desktop/WebAppBookList/App/Backend/BookList.DataAccess/obj/Debug/net8.0/BookList.DataAccess.csproj.AssemblyReference.cache
+/Users/izzatmelikov/Desktop/WebAppBookList/App/Backend/BookList.DataAccess/obj/Debug/net8.0/BookList.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+/Users/izzatmelikov/Desktop/WebAppBookList/App/Backend/BookList.DataAccess/obj/Debug/net8.0/BookList.DataAccess.AssemblyInfoInputs.cache
+/Users/izzatmelikov/Desktop/WebAppBookList/App/Backend/BookList.DataAccess/obj/Debug/net8.0/BookList.DataAccess.AssemblyInfo.cs
+/Users/izzatmelikov/Desktop/WebAppBookList/App/Backend/BookList.DataAccess/obj/Debug/net8.0/BookList.DataAccess.csproj.CoreCompileInputs.cache
+/Users/izzatmelikov/Desktop/WebAppBookList/App/Backend/BookList.DataAccess/bin/Debug/net8.0/BookList.DataAccess.deps.json
+/Users/izzatmelikov/Desktop/WebAppBookList/App/Backend/BookList.DataAccess/bin/Debug/net8.0/BookList.DataAccess.runtimeconfig.json
+/Users/izzatmelikov/Desktop/WebAppBookList/App/Backend/BookList.DataAccess/bin/Debug/net8.0/BookList.DataAccess.dll
+/Users/izzatmelikov/Desktop/WebAppBookList/App/Backend/BookList.DataAccess/bin/Debug/net8.0/BookList.DataAccess.pdb
+/Users/izzatmelikov/Desktop/WebAppBookList/App/Backend/BookList.DataAccess/bin/Debug/net8.0/BookList.Core.dll
+/Users/izzatmelikov/Desktop/WebAppBookList/App/Backend/BookList.DataAccess/bin/Debug/net8.0/BookList.Core.pdb
+/Users/izzatmelikov/Desktop/WebAppBookList/App/Backend/BookList.DataAccess/obj/Debug/net8.0/BookList.B3997AA0.Up2Date
+/Users/izzatmelikov/Desktop/WebAppBookList/App/Backend/BookList.DataAccess/obj/Debug/net8.0/BookList.DataAccess.dll
+/Users/izzatmelikov/Desktop/WebAppBookList/App/Backend/BookList.DataAccess/obj/Debug/net8.0/refint/BookList.DataAccess.dll
+/Users/izzatmelikov/Desktop/WebAppBookList/App/Backend/BookList.DataAccess/obj/Debug/net8.0/BookList.DataAccess.pdb
+/Users/izzatmelikov/Desktop/WebAppBookList/App/Backend/BookList.DataAccess/obj/Debug/net8.0/BookList.DataAccess.genruntimeconfig.cache
+/Users/izzatmelikov/Desktop/WebAppBookList/App/Backend/BookList.DataAccess/obj/Debug/net8.0/ref/BookList.DataAccess.dll
